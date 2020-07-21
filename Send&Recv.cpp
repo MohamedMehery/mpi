@@ -1,5 +1,5 @@
 #include<iostream>
-#include <mpi.h>
+#include "mpi.h"
 
 using namespace std;
 int MAX_SIZE = 10;
@@ -97,5 +97,8 @@ void main(int argc, char *argv[]) {
 	}
 	
 	MPI_Finalize();
+	while (true)
+	{
 
+	}
 }
